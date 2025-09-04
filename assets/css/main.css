@@ -1572,6 +1572,8 @@ section,
   background-position: right 10px center;
   background-size: 10px;
   cursor: pointer;
+  border-color: #252525;
+  
 }
 
 /* تأثير عند التركيز */
