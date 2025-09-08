@@ -75,12 +75,12 @@
             <h2>Ziad Mahmoud</h2>
 
             <!-- الوظائف المتغيرة بالـ Typed.js -->
-       <p>I'm
-  <span class="typed"
-    data-typed-items="Full Stack Developer, Laravel | React Developer, Freelancer, Problem Solver">
-  </span>
-  <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
-</p>
+            <p>I'm
+              <span class="typed"
+                data-typed-items="Full Stack Developer, Laravel | React Developer, Freelancer, Problem Solver">
+              </span>
+              <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+            </p>
 
             <!-- اللينكات بتاعتك -->
             <div class="social-links">
@@ -88,8 +88,7 @@
               <a href="tel:+201121157987" title="Phone"><i class="bi bi-telephone"></i></a>
               <a href="https://www.linkedin.com/in/ziad-mahmoud-4a1ba5302" target="_blank" title="LinkedIn"><i
                   class="bi bi-linkedin"></i></a>
-              <a href="https://github.com/ziadazza" target="_blank" title="GitHub"><i
-                  class="bi bi-github"></i></a>
+              <a href="https://github.com/ziadazza" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
             </div>
           </div>
         </div>
@@ -249,9 +248,9 @@
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>Python</span> <i class="val">70%</i></span>
+              <span class="skill"><span>html</span> <i class="val">98%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div><!-- End Skills Item -->
@@ -285,7 +284,7 @@
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>HTML &amp; CSS</span> <i class="val">95%</i></span>
+              <span class="skill"><span>CSS</span> <i class="val">95%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -422,56 +421,382 @@
     </section><!-- /Resume Section -->
 
     <!-- Portfolio Section -->
-<section id="projects" class="section">
-  <div class="container">
-    <h2 class="section-title">Projects</h2>
-    <div class="projects-grid">
-
-      <!-- To-Do List Application -->
-      <div class="project-card">
-        <img src="to-php-2025-08-31-22_57_26.png" alt="To-Do List Application" width="100%" height="300px">
-        <h3>To-Do List Application</h3>
-        <p class="tech">PHP, MySQL, HTML, CSS</p>
-        <p class="description">
-          Developed a task management app with secure CRUD operations and a responsive design.
-        </p>
-        <a href="https://github.com/Ziadmahmoud314/to-do-list" target="_blank" class="project-link">
-          View on GitHub <i class="fab fa-github"></i>
-        </a>
-      </div>
-
-      <!-- Space Tourism Website -->
-      <div class="project-card">
-        <img src="space-tourism-pages-index-html-2025-08-31-21_31_03.png"  alt="Space Tourism Website" width="100%" height="300px">
-        <h3>Space Tourism Website</h3>
-        <p class="tech">HTML, CSS, JavaScript</p>
-        <p class="description">
-          Built an interactive multi-page website showcasing planets, crew profiles, and space travel.
-        </p>
-        <a href="https://github.com/Ziadmahmoud314/space-tourism" target="_blank" class="project-link">
-          View on GitHub <i class="fab fa-github"></i>
-        </a>
-      </div>
-
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"> Projects</h2>
      
+        </div>
 
-      <!-- Fruitkha E-Commerce Backend -->
-      <div class="project-card">
-        <h3>Fruitkha E-Commerce Backend</h3>
-        <p class="tech">Laravel, PHP, MySQL</p>
-        <p class="description">
-          Developed the backend for an online grocery store using Laravel.  
-          Features include product management, user authentication, order processing,
-          and cart functionality with secure database integration.
-        </p>
-        <a href="https://github.com/ziadazza/Laravel_project_e-commers.git" target="_blank" class="project-link">
-          View on GitHub <i class="fab fa-github"></i>
-        </a>
-      </div>
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="*">All</button>
+          <button class="filter-btn" data-filter="html">Html & Css</button>
+          <button class="filter-btn" data-filter="htmlJS">Html|Css|JavaScript</button>
+          <button class="filter-btn" data-filter="php">php</button>
+          <button class="filter-btn" data-filter="Laravel">Laravel</button>
+          <button class="filter-btn" data-filter="Bootstrap">Bootstrap</button>
+        </div>
 
-    </div>
-  </div>
-</section>
+        <div class="projects-grid" id="projectsGrid">
+          <!-- To-Do List Application -->
+          <div class="project-card" data-category="php">
+            <div class="project-image">
+              <!-- <div class="category-indicator">Full Stack</div> -->
+              <img src="to-php-2025-08-31-22_57_26.png" alt="To-Do List Application"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="project-placeholder hidden">
+                <i class="bi bi-list-task"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="to-php-2025-08-31-22_57_26.png" class="project-action" title="Preview">
+                    <i class="bi bi-eye"></i>
+                  </a>
+                  <a href="https://github.com/Ziadmahmoud314/to-do-list" target="_blank" class="project-action"
+                    title="View Code">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tech-stack">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+              <h3 class="project-title">To-Do List Application</h3>
+              <p class="project-description">
+                A comprehensive task management application featuring secure CRUD operations,
+                user authentication, and responsive design. Built with PHP and MySQL backend.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Ziadmahmoud314/to-do-list" target="_blank" class="project-link primary">
+                  <i class="bi bi-github"></i> View Code
+                </a>
+                <a href="#" class="project-link secondary">
+                  <i class="bi bi-arrow-up-right"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Space Tourism Website -->
+          <div class="project-card" data-category="htmlJS">
+            <div class="project-image">
+              <!-- <div class="category-indicator">Html | Css | JavaScript</div> -->
+              <img src="space-tourism-pages-index-html-2025-08-31-21_31_03.png" alt="Space Tourism Website"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="project-placeholder hidden">
+                <i class="bi bi-rocket"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="space-tourism-pages-index-html-2025-08-31-21_31_03.png" class="project-action"
+                    title="Preview">
+                    <i class="bi bi-eye"></i>
+                  </a>
+                  <a href="https://github.com/Ziadmahmoud314/space-tourism" target="_blank" class="project-action"
+                    title="View Code">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <h3 class="project-title">Space Tourism Website</h3>
+              <p class="project-description">
+                Interactive multi-page website showcasing space destinations, crew profiles, and
+                cutting-edge technology with stunning animations and responsive design.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Ziadmahmoud314/space-tourism" target="_blank" class="project-link primary">
+                  <i class="bi bi-github"></i> View Code
+                </a>
+                <a href="#" class="project-link secondary">
+                  <i class="bi bi-arrow-up-right"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fruitkha E-Commerce Backend -->
+          <div class="project-card" data-category="Laravel">
+            <div class="project-image">
+              <!-- <div class="category-indicator">Backend</div> -->
+              <div class="project-placeholder">
+                <i class="bi bi-cart3"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="#" class="project-action" title="Preview">
+                    <i class="bi bi-eye"></i>
+                  </a>
+                  <a href="https://github.com/ziadazza/Laravel_project_e-commers.git" target="_blank"
+                    class="project-action" title="View Code">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tech-stack">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+              <h3 class="project-title">Fruitkha E-Commerce Backend</h3>
+              <p class="project-description">
+                Robust e-commerce backend system with product management, user authentication,
+                shopping cart functionality, and secure payment processing.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/ziadazza/Laravel_project_e-commers.git" target="_blank"
+                  class="project-link primary">
+                  <i class="bi bi-github"></i> View Code
+                </a>
+                <a href="#" class="project-link secondary">
+                  <i class="bi bi-server"></i> API Docs
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Calculator Project -->
+          <div class="project-card" data-category="htmlJS">
+            <div class="project-image">
+              <!-- <div class="category-indicator">Frontend</div> -->
+              <img src="assets/img/calc.png" alt="Calculator Project"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="project-placeholder hidden">
+                <i class="bi bi-calculator"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="assets/img/calc.png" class="project-action" title="Preview">
+                    <i class="bi bi-eye"></i>
+                  </a>
+                  <a href="https://github.com/Ziadmahmoud314/calculator" target="_blank" class="project-action"
+                    title="View Code">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <h3 class="project-title">Calculator App</h3>
+              <p class="project-description">
+                A responsive calculator app featuring multiple themes and real-time calculations.
+                Built with vanilla JavaScript for dynamic functionality and modern UI styling.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Ziadmahmoud314/calculator" target="_blank" class="project-link primary">
+                  <i class="bi bi-github"></i> View Code
+                </a>
+                <a href="#" class="project-link secondary">
+                  <i class="bi bi-arrow-up-right"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- YouTube Clone Project -->
+          <div class="project-card" data-category="htmlJS">
+            <div class="project-image">
+              <!-- <div class="category-indicator">Frontend</div> -->
+              <img src="youtube-clone-preview.png" alt="YouTube Clone"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="project-placeholder hidden">
+                <i class="bi bi-play-btn"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="youtube-clone-preview.png" class="project-action" title="Preview">
+                    <i class="bi bi-eye"></i>
+                  </a>
+                  <a href="https://github.com/Ziadmahmoud314/youtube-clone" target="_blank" class="project-action"
+                    title="View Code">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">SwiperJS</span>
+              </div>
+              <h3 class="project-title">YouTube Clone</h3>
+              <p class="project-description">
+                A modern YouTube clone with responsive UI, sidebar navigation, search functionality,
+                and dynamic category slider using SwiperJS. Built with vanilla JavaScript for interactions.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Ziadmahmoud314/youtube-clone" target="_blank" class="project-link primary">
+                  <i class="bi bi-github"></i> View Code
+                </a>
+                <a href="#" class="project-link secondary">
+                  <i class="bi bi-arrow-up-right"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Workit Landing Page -->
+          <div class="project-card" data-category="html">
+            <div class="project-image">
+              <!-- <div class="category-indicator">Frontend</div> -->
+              <img src="assets/img/Workit landing page.png" alt="Workit Landing Page"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="project-placeholder hidden">
+                <i class="bi bi-layers"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="assets/img/Workit landing page.png" class="project-action" title="Preview">
+                    <i class="bi bi-eye"></i>
+                  </a>
+                  <a href="https://github.com/Ziadmahmoud314/workit-landing-page" target="_blank" class="project-action"
+                    title="View Code">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <h3 class="project-title">Workit Landing Page</h3>
+              <p class="project-description">
+                A professional and modern landing page built with semantic HTML and responsive CSS.
+                Features hero sections, founder introduction, and smooth UI interactions.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Ziadmahmoud314/workit-landing-page" target="_blank"
+                  class="project-link primary">
+                  <i class="bi bi-github"></i> View Code
+                </a>
+                <a href="#" class="project-link secondary">
+                  <i class="bi bi-arrow-up-right"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- E-Learning Landing Page -->
+          <div class="project-card" data-category="html">
+            <div class="project-image">
+              <img src="assets/img/html.png" alt="E-Learning Landing Page"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="project-placeholder hidden">
+                <i class="bi bi-layers"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="assets/img/html.png" class="project-action" title="Preview">
+                    <i class="bi bi-eye"></i>
+                  </a>
+                  <a href="https://github.com/Ziadmahmoud314/elearning-landing-page" target="_blank"
+                    class="project-action" title="View Code">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">FontAwesome</span>
+              </div>
+              <h3 class="project-title">E-Learning Landing Page</h3>
+              <p class="project-description">
+                A modern responsive landing page for an online learning platform.
+                Includes hero section, statistics, services, features, courses, testimonials,
+                and a professional footer.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Ziadmahmoud314/elearning-landing-page" target="_blank"
+                  class="project-link primary">
+                  <i class="bi bi-github"></i> View Code
+                </a>
+                <a href="#" class="project-link secondary">
+                  <i class="bi bi-arrow-up-right"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- ✅ E-Learning Landing Page Project -->
+          <div class="project-card" data-category="Bootstrap">
+            <div class="project-image">
+              <img src="assets/img/Bootstrap demo.png" alt="E-Learning Landing Page"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="project-placeholder hidden">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="assets/img/Bootstrap demo.png" class="project-action" title="Preview">
+                    <i class="bi bi-eye"></i>
+                  </a>
+                  <a href="https://github.com/Ziadmahmoud314/elearning-landing-page" target="_blank"
+                    class="project-action" title="View Code">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">Bootstrap 5</span>
+                <span class="tech-tag">FontAwesome</span>
+              </div>
+              <h3 class="project-title">E-Learning Landing Page</h3>
+              <p class="project-description">
+                A modern responsive landing page for an online education platform.
+                Includes hero section, features, mentor highlight, FAQ, and a floating sidebar with tooltips.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/YourGithub/elearning-landing-page" target="_blank"
+                  class="project-link primary">
+                  <i class="fab fa-github"></i> View Code
+                </a>
+                <a href="https://your-demo-link.com" target="_blank" class="project-link secondary">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </section>
 
     <!-- Services Section -->
     <section id="services" class="services section">
@@ -560,7 +885,7 @@
 
     <!-- Testimonials Section -->
 
-    
+
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
@@ -602,37 +927,38 @@
 
           <!-- Contact Form -->
           <div class="col-lg-8">
-<form id="contact-form" class="php-email-form">
-  <div class="row gy-4">
-    <div class="col-md-6">
-      <input type="text" name="firstname" class="form-control" placeholder="First Name" required>
-    </div>
-    <div class="col-md-6">
-      <input type="text" name="lastname" class="form-control" placeholder="Last Name" required>
-    </div>
-    <div class="col-md-6">
-      <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-    </div>
-    <div class="col-md-6">
-      <input type="text" name="phone" class="form-control" placeholder="Phone (Optional)">
-    </div>
-    <div class="col-md-12">
-      <select class="form-control" name="service" required>
-        <option value="">Select a service</option>
-        <option value="frontend">Frontend Development</option>
-        <option value="backend">Backend Development</option>
-        <option value="fullstack">Full-Stack Development</option>
-      </select>
-    </div>
-    <div class="col-md-12">
-      <textarea name="message" class="form-control" rows="6" placeholder="Type your message here..." required></textarea>
-    </div>
-    <div class="col-md-12 text-center">
-      <div id="status" class="status"></div>
-      <button type="submit">Send Message</button>
-    </div>
-  </div>
-</form>
+            <form id="contact-form" class="php-email-form">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input type="text" name="firstname" class="form-control" placeholder="First Name" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="text" name="lastname" class="form-control" placeholder="Last Name" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="text" name="phone" class="form-control" placeholder="Phone (Optional)">
+                </div>
+                <div class="col-md-12">
+                  <select class="form-control" name="service" required>
+                    <option value="">Select a service</option>
+                    <option value="frontend">Frontend Development</option>
+                    <option value="backend">Backend Development</option>
+                    <option value="fullstack">Full-Stack Development</option>
+                  </select>
+                </div>
+                <div class="col-md-12">
+                  <textarea name="message" class="form-control" rows="6" placeholder="Type your message here..."
+                    required></textarea>
+                </div>
+                <div class="col-md-12 text-center">
+                  <div id="status" class="status"></div>
+                  <button type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
 
           </div><!-- End Contact Form -->
 
@@ -693,44 +1019,44 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script>
-  // تهيئة EmailJS بمفتاحك العام
-  
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    // تهيئة EmailJS بمفتاحك العام
 
-  (function () {
-    emailjs.init("RHFX2JnH7ceWO_Rty"); 
-  })();
 
-  document
-    .getElementById("contact-form")
-    .addEventListener("submit", function (e) {
-      e.preventDefault();
+    (function () {
+      emailjs.init("RHFX2JnH7ceWO_Rty");
+    })();
 
-      let statusMsg = document.getElementById("status");
+    document
+      .getElementById("contact-form")
+      .addEventListener("submit", function (e) {
+        e.preventDefault();
 
-    emailjs.sendForm("service_48exwif", "template_j12t0iw", this).then(
-      () => {
-        statusMsg.className = "status success"; 
-        statusMsg.innerHTML = "✅ Your message has been sent successfully!";
-        this.reset();
-        setTimeout(() => {
-          statusMsg.className = "status";
-          statusMsg.innerHTML = "";
-        }, 4000);
-      },
-      (error) => {
-        statusMsg.className = "status error";
-        statusMsg.innerHTML = "❌ Failed to send: " + error.text;
-        setTimeout(() => {
-          statusMsg.className = "status";
-          statusMsg.innerHTML = "";
-        }, 5000);
-      }
-    );
-    });
+        let statusMsg = document.getElementById("status");
 
-</script>
+        emailjs.sendForm("service_48exwif", "template_j12t0iw", this).then(
+          () => {
+            statusMsg.className = "status success";
+            statusMsg.innerHTML = "✅ Your message has been sent successfully!";
+            this.reset();
+            setTimeout(() => {
+              statusMsg.className = "status";
+              statusMsg.innerHTML = "";
+            }, 4000);
+          },
+          (error) => {
+            statusMsg.className = "status error";
+            statusMsg.innerHTML = "❌ Failed to send: " + error.text;
+            setTimeout(() => {
+              statusMsg.className = "status";
+              statusMsg.innerHTML = "";
+            }, 5000);
+          }
+        );
+      });
+
+  </script>
 
 </body>
 
