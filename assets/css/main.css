@@ -1887,8 +1887,8 @@ section,
 }
 
 .projects-section .project-link.primary:hover {
-    background: color-mix(in srgb, var(--accent-color) 80%, white 20%);
-    color: white;
+   background: rgba(30, 144, 255, 0.85); /* fallback */
+    background: color-mix(in srgb, var(--accent-color) 80%, white 20%);    color: white;
     transform: translateY(-2px);
 }
 
@@ -1910,8 +1910,8 @@ section,
     right: 16px;
     padding: 8px 16px;
     background: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);    border-radius: 20px;
     font-size: 0.8rem;
     font-weight: 600;
     color: var(--accent-color);
